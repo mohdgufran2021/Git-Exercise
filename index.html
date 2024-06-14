@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Find Next Number -->
+
+<center class="m-5">
+    <div class="p-2" style="border: 1px solid lightgray; border-radius: 10px; width: 800px; background-color:aliceblue;"">
+        <h1 class="bg-secondary mb-5" style="border: 1px solid lightblue; border-radius: 12px; width: 400px;">Find Next Number</h1>
+        <label for="number" style="display: inline;">Number:</label>
+        <input type="number" id="int" class="form-control" style="width: 300px; display: inline;">
+        <button class="btn btn-success" id="btn" style=" margin-bottom: 6px; width: 200px;" onclick="getNextNum()">Get Next</button>
+
+        <div class="" id="out" style="font-size: 30px;">
+            <div class="m-4">Next Number of <span id="n"></span> is: <span id="o"></span></div>
+        </div>
+
+    </div>
+</center>
+
+
+<!-- Area of Triangle -->
+
+<center class="m-5">
+    <div class="p-2" style="border: 1px solid lightgray; border-radius: 10px; width: 800px; background-color:aliceblue;"">
+        <h1 class="bg-secondary mb-5 p-1" style="border: 1px solid lightblue; border-radius: 12px; width: 400px;">Area of Triangle</h1>
+        <label for="number" style="display: inline;">Triangle Height:</label>
+        <input type="number" id="height" class="form-control mb-2" style="width: 300px; display: inline;"><br>
+        <label for="number" style="display: inline;" class="pr-3">Triangle Base:</label>
+        <input type="number" id="base" class="form-control mb-2" style="width: 300px; display: inline;"><br>
+        <button class="btn btn-success" id="btn" style=" margin-bottom: 6px; width: 185px;" onclick="calArea()">Calculate</button>
+
+        <div class="" id="out2" style="font-size: 30px;">
+            <div class="m-4">Area of Triangle is: <span id="res"></span></div>
+        </div>
+
+    </div>
+</center>
+
+
+<!-- Convert Age to Days -->
+
+<center class="m-5">
+    <div class="p-2" style="border: 1px solid lightgray; border-radius: 10px; width: 800px; background-color:aliceblue;"">
+        <h1 class="bg-secondary mb-5 p-1" style="border: 1px solid lightblue; border-radius: 12px; width: 550px;">Conversion of Age into Days</h1>
+        <label for="number" style="display: inline;">Date of Birth:</label>
+        <input type="date" id="dob" class="form-control mb-2" style="width: 300px; display: inline;"><br>
+        
+        <button class="btn btn-success" id="btn" style=" margin-bottom: 6px; width: 185px;" onclick="calDays()">Calculate Days</button>
+
+        <div class="" id="out3" style="font-size: 30px;">
+            <div class="m-4" id="result "></div>
+        </div>
+
+    </div>
+</center>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
